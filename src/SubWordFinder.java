@@ -8,6 +8,9 @@ public class SubWordFinder implements WordFinder    {
     private ArrayList<ArrayList<String>> dictionary;
     private String alpha = "abcdefghijklmnopqrstuvwxyz";
 
+    /**
+     * Initiate dictionary and setting up parameters
+     */
     public SubWordFinder()  {
         dictionary = new ArrayList<>();
         for(int i = 0; i < 26; i++)
